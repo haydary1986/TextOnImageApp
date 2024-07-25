@@ -3,11 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
 <body>
-
-<h1>TextOnImageApp</h1>
 
 <h2>Overview</h2>
 <p><strong>TextOnImageApp</strong> is a user-friendly graphical application built using Python's Tkinter library. This app allows users to add text to multiple images, adjust the font size, change the text position, and resize images. It also includes features to ensure the processed images do not exceed 500KB in size. All text in the application is displayed in Arabic, making it accessible for Arabic-speaking users.</p>
@@ -45,11 +42,11 @@ source env/bin/activate   # On Windows: .\env\Scripts\activate
         </code></pre>
     </li>
     <li>Run the application:
-        <pre><code>python add_text_to_images.py
+        <pre><code>python images.py
         </code></pre>
     </li>
     <li>(Optional) Create an executable using PyInstaller:
-        <pre><code>pyinstaller --onefile --windowed add_text_to_images.py
+        <pre><code>pyinstaller --onefile --windowed images.py
         </code></pre>
     </li>
 </ol>
