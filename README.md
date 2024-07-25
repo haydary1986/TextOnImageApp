@@ -31,7 +31,7 @@
 <h3>Steps</h3>
 <ol>
     <li>Clone the repository:
-        <pre><code>git clone https://github.com/yourusername/TextOnImageApp.git
+        <pre><code>git clone https://github.com/haydary1986/TextOnImageApp.git
 cd TextOnImageApp
         </code></pre>
     </li>
